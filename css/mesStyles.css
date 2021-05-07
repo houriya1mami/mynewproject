@@ -1,0 +1,80 @@
+#info { border: solid 10px black;
+        margin: 50px;
+        padding: 30px;
+        background-color: grey;
+      } 
+
+#inscript { border: solid 10px black;
+         padding: 30px;
+         background-color: yellow;
+         }
+
+#pret { border: solid 10px black;
+        margin: 50px;
+        background-color: red;
+      }
+section {
+
+        font-family: Arial;
+        
+        background-color: rgb(255, 229, 155);} 
+
+#img {   
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+         width: 180px;}
+        
+#formulaire {
+        
+        position: relative;
+         margin: auto;
+         width: 300px;} 
+        
+#lbSaisie {
+        
+        display: inline-block;
+        
+        width: 150px;
+        
+        line-height: 30px; }
+        
+.bouton {
+        
+        width: 0px; }
+.entoureimg{ float: right;
+
+        }
+
+
+section {
+
+        font-family: Arial;
+        
+        background-color: rgb(255, 229, 155);
+        
+        }
+        
+        
+#fond { background-image: url("image/tunisie.jpg");
+        
+        color: lightblue; 
+         font-size : 22px;
+        font-style : oblique; 
+        text-align : left;
+        font-weight : bold;
+            }
+
+body { font-size:100%;}
+
+@media screen and (max-width: 900px), handheld and (max-width: 800px) 
+{
+
+body { font-size:120%;
+
+       background-color: pink }
+
+.affichage{
+
+     display: none; }
+
